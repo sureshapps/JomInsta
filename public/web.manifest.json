@@ -1,6 +1,6 @@
 {
-  "name": "JomInsta",
-  "short_name": "JomInsta",
+  "name": "JomIG",
+  "short_name": "JomIG",
   "description": "Paste. Download. Freedom",
   "start_url": "/",
   "display": "standalone",
@@ -25,8 +25,8 @@
     "Instagram video grabber app"
   ],
   "author": "Suresh Kaleyannan",
-  "copyright": "© (Malaysia) 2025 Suresh Kaleyannan. All rights reserved.",
+  "copyright": "© JomIG (Malaysia) 2025 Suresh Kaleyannan. All rights reserved.",
   "rating": "General",
-  "apple-mobile-web-app-title": "JomInsta",
+  "apple-mobile-web-app-title": "JomIG",
   "apple-mobile-web-app-status-bar-style": "black-translucent"
 }
