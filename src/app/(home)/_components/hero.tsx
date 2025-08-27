@@ -31,7 +31,7 @@ export function Hero() {
               <div className="text-muted-foreground mb-2 hover:underline">
                 {t("learnMore")}
               </div>
-              <ArrowDown className="mx-auto h-6 w-6 animate-bounce text-teal-500" />
+              <ArrowDown className="mx-auto h-6 w-6 animate-bounce text-rose-500" />
             </a>
           </div>
         </div>
