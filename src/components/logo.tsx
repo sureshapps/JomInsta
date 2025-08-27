@@ -18,11 +18,8 @@ export function LogoText({ className, ...props }: React.ComponentProps<"div">) {
       )}
       {...props}
     >
-      <div
-        className="relative flex items-center justify-between py-3 px-6 text-lg text-white rounded-lg transform -translate-y-1 bg-gradient-to-r from-[#f27121] via-[#e94057] to-[#8a2387] gap-3 transition duration-[600ms] ease-[cubic-bezier(0.3,0.7,0.4,1)] group-hover:-translate-y-1.5 group-hover:duration-[250ms] group-active:-translate-y-0.5 brightness-100 group-hover:brightness-110"
-      >
-        <span className="select-none">Jom IG</span>
-      </div>
+      
+    JOMIG
     </div>
   );
 }
@@ -38,28 +35,16 @@ export function LogoImage({
       y="0px"
       width="300"
       height="300"
-      viewBox="0 0 256 256"
+      viewBox="0 0 120 120"
       className={cn(className)}
       {...props}
     >
-      <g
-        fill="#ff0059"
-        fillRule="nonzero"
-        stroke="none"
-        strokeWidth="2"
-        strokeLinecap="butt"
-        strokeLinejoin="miter"
-        strokeMiterlimit="10"
-        fontFamily="none"
-        fontWeight="none"
-        fontSize="none"
-        textAnchor="none"
-        style={{ mixBlendMode: "normal" }}
-      >
-        <g transform="scale(3.55556,3.55556)">
-          <path d="M35.75,14c-20.171,0 -21.75,1.579 -21.75,21.75v0.5c0,20.171 1.579,21.75 21.75,21.75h0.5c20.171,0 21.75,-1.579 21.75,-21.75v-0.5c0,-20.171 -1.579,-21.75 -21.75,-21.75zM48.99609,22.5c0.829,-0.002 1.50191,0.66809 1.50391,1.49609c0.002,0.829 -0.66709,1.50191 -1.49609,1.50391c-0.829,0.002 -1.50191,-0.66709 -1.50391,-1.49609c-0.002,-0.829 0.66709,-1.50191 1.49609,-1.50391zM35.97656,26c5.522,-0.013 10.01044,4.45456 10.02344,9.97656c0.013,5.522 -4.45456,10.01044 -9.97656,10.02344c-5.522,0.013 -10.01044,-4.45456 -10.02344,-9.97656c-0.013,-5.522 4.45456,-10.01044 9.97656,-10.02344zM35.99023,32c-2.209,0.006 -3.99523,1.80077 -3.99023,4.00977c0.006,2.209 1.80077,3.99523 4.00977,3.99023c2.209,-0.005 3.99523,-1.80077 3.99023,-4.00977c-0.006,-2.209 -1.80077,-3.99523 -4.00977,-3.99023z"></path>
-        </g>
-      </g>
+      <path d="M80,105H40c-12.15,0-22-9.85-22-22V43c0-12.15,9.85-22,22-22h40c12.15,0,22,9.85,22,22v40 C102,95.15,92.15,105,80,105z" opacity=".35"></path>
+      <path fill="#9500ba" d="M80,18h-5.243h-7.476h-8.456H48.482C73.882,27.06,93.843,47.673,102,73.484V62.306v-8.845v-7.712 V40C102,27.85,92.15,18,80,18z"></path>
+      <path d="M19.5,45c-0.503,0-1,0.024-1.5,0.038v4C18.5,49.023,18.997,49,19.5,49C47.346,49,70,71.654,70,99.5 c0,0.838-0.023,1.672-0.063,2.5h4c0.038-0.829,0.063-1.662,0.063-2.5C74,69.449,49.551,45,19.5,45z" opacity=".35"></path>
+      <!-- Keep rest of paths from your SVG -->
     </svg>
   );
 }
+
+
