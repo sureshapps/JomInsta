@@ -16,19 +16,19 @@ export function Footer() {
         <div className="flex gap-4">
           <a
             href="#"
-            className="text-muted-foreground text-sm hover:text-teal-500"
+            className="text-muted-foreground text-sm hover:text-rose-500"
           >
             {t("links.terms")}
           </a>
           <a
             href="#"
-            className="text-muted-foreground text-sm hover:text-teal-500"
+            className="text-muted-foreground text-sm hover:text-rose-500"
           >
             {t("links.privacy")}
           </a>
           <a
             href="#"
-            className="text-muted-foreground text-sm hover:text-teal-500"
+            className="text-muted-foreground text-sm hover:text-rose-500"
           >
             {t("links.contact")}
           </a>
