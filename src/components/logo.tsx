@@ -35,8 +35,8 @@ export function LogoImage({
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
-      width="100"
-      height="100"
+      width="200"
+      height="200"
       viewBox="0 0 256 256"
       // NOTE: no "fill-foreground" so your brand color isn't overridden
       className={cn(className)}
@@ -46,7 +46,7 @@ export function LogoImage({
         fill="#ff0059"
         fillRule="nonzero"
         stroke="none"
-        strokeWidth="1"
+        strokeWidth="2"
         strokeLinecap="butt"
         strokeLinejoin="miter"
         strokeMiterlimit="10"
