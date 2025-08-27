@@ -19,7 +19,7 @@ export function HowItWorks() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
           <div className="space-y-2">
-            <div className="mb-2 inline-block rounded-lg bg-teal-100 px-3 py-1 text-sm text-teal-700 dark:bg-teal-800 dark:text-teal-50">
+            <div className="mb-2 inline-block rounded-lg bg-rose-100 px-3 py-1 text-sm text-rose-700 dark:bg-rose-800 dark:text-rose-50">
               {t("badge")}
             </div>
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
@@ -34,12 +34,12 @@ export function HowItWorks() {
           <div className="relative mx-auto mt-12 hidden w-full max-w-4xl md:block">
             <div className="grid grid-cols-3 gap-4">
               <div className="relative flex flex-col items-center space-y-4">
-                <div className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-teal-500 text-xl font-bold text-white shadow-lg">
+                <div className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-rose-500 text-xl font-bold text-white shadow-lg">
                   1
                 </div>
                 <div className="h-full rounded-xl border border-gray-100 bg-white p-6 shadow-md transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
                   <div className="mb-4 flex justify-center">
-                    <Copy className="h-8 w-8 text-teal-500" />
+                    <Copy className="h-8 w-8 text-rose-500" />
                   </div>
                   <h3 className="mb-2 text-xl font-bold">
                     {t("steps.copy.title")}
@@ -51,12 +51,12 @@ export function HowItWorks() {
               </div>
 
               <div className="relative flex flex-col items-center space-y-4">
-                <div className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-teal-500 text-xl font-bold text-white shadow-lg">
+                <div className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-rose-500 text-xl font-bold text-white shadow-lg">
                   2
                 </div>
                 <div className="h-full rounded-xl border border-gray-100 bg-white p-6 shadow-md transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
                   <div className="mb-4 flex justify-center">
-                    <Clipboard className="h-8 w-8 text-teal-500" />
+                    <Clipboard className="h-8 w-8 text-rose-500" />
                   </div>
                   <h3 className="mb-2 text-xl font-bold">
                     {t("steps.paste.title")}
@@ -68,12 +68,12 @@ export function HowItWorks() {
               </div>
 
               <div className="flex flex-col items-center space-y-4">
-                <div className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-teal-500 text-xl font-bold text-white shadow-lg">
+                <div className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-rose-500 text-xl font-bold text-white shadow-lg">
                   3
                 </div>
                 <div className="h-full rounded-xl border border-gray-100 bg-white p-6 shadow-md transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
                   <div className="mb-4 flex justify-center">
-                    <Download className="h-8 w-8 text-teal-500" />
+                    <Download className="h-8 w-8 text-rose-500" />
                   </div>
                   <h3 className="mb-2 text-xl font-bold">
                     {t("steps.download.title")}
@@ -89,15 +89,15 @@ export function HowItWorks() {
           {/* Mobile version with vertical steps */}
           <div className="relative mx-auto w-full max-w-sm space-y-8 md:hidden">
             {/* Vertical connecting line */}
-            <div className="absolute top-0 bottom-16 left-4 w-0.5 bg-teal-200"></div>
+            <div className="absolute top-0 bottom-16 left-4 w-0.5 bg-rose-200"></div>
 
             <div className="relative flex items-start space-x-6">
-              <div className="z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-teal-500 font-bold text-white">
+              <div className="z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-rose-500 font-bold text-white">
                 1
               </div>
               <div className="flex-1 rounded-lg border border-gray-100 bg-white p-4 shadow-md transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
                 <div className="mb-2 flex items-center">
-                  <Copy className="mr-2 h-5 w-5 text-teal-500" />
+                  <Copy className="mr-2 h-5 w-5 text-rose-500" />
                   <h3 className="text-lg font-bold">{t("steps.copy.title")}</h3>
                 </div>
                 <p className="text-muted-foreground text-sm">
@@ -107,12 +107,12 @@ export function HowItWorks() {
             </div>
 
             <div className="relative flex items-start space-x-6">
-              <div className="z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-teal-500 font-bold text-white">
+              <div className="z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-rose-500 font-bold text-white">
                 2
               </div>
               <div className="flex-1 rounded-lg border border-gray-100 bg-white p-4 shadow-md transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
                 <div className="mb-2 flex items-center">
-                  <Clipboard className="mr-2 h-5 w-5 text-teal-500" />
+                  <Clipboard className="mr-2 h-5 w-5 text-rose-500" />
                   <h3 className="text-lg font-bold">
                     {t("steps.paste.title")}
                   </h3>
@@ -124,12 +124,12 @@ export function HowItWorks() {
             </div>
 
             <div className="relative flex items-start space-x-6">
-              <div className="z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-teal-500 font-bold text-white">
+              <div className="z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-rose-500 font-bold text-white">
                 3
               </div>
               <div className="flex-1 rounded-lg border border-gray-100 bg-white p-4 shadow-md transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-800">
                 <div className="mb-2 flex items-center">
-                  <Download className="mr-2 h-5 w-5 text-teal-500" />
+                  <Download className="mr-2 h-5 w-5 text-rose-500" />
                   <h3 className="text-lg font-bold">
                     {t("steps.download.title")}
                   </h3>
@@ -143,7 +143,7 @@ export function HowItWorks() {
 
           <div className="pt-8">
             <Button
-              className="bg-teal-500 text-white hover:bg-teal-600 dark:bg-teal-700 dark:hover:bg-teal-600"
+              className="bg-rose-500 text-white hover:bg-rose-600 dark:bg-rose-700 dark:hover:bg-rose-600"
               asChild
             >
               <a href={homeLinks.hero}>{t("ctaButton")}</a>
