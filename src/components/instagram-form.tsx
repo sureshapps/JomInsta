@@ -54,7 +54,7 @@ function triggerDownload(videoUrl: string) {
   if (typeof window === "undefined") return;
 
   const randomTime = new Date().getTime().toString().slice(-8);
-  const filename = `gram-grabberz-${randomTime}.mp4`;
+  const filename = `jom-ig-${randomTime}.mp4`;
 
   // Construct the URL to your proxy API route
   const proxyUrl = new URL("/api/download-proxy", window.location.origin); // Use relative path + origin
@@ -271,7 +271,7 @@ export function InstagramForm(props: { className?: string }) {
           <Button
             disabled={isDisabled}
             type="submit"
-            className="bg-teal-500 text-white hover:bg-teal-600 dark:bg-teal-700 dark:hover:bg-teal-600"
+            className="bg-rose-500 text-white hover:bg-rose-600 dark:bg-rose-700 dark:hover:bg-rose-600"
           >
             {isPending ? (
               <Loader2 className="h-4 w-4 animate-spin" />
