@@ -37,7 +37,7 @@
         }
       },
       "footer": {
-        "copyright": "© {year} Application. All rights reserved.",
+        "copyright": "© {year} JOMIG. All rights reserved.",
         "links": {
           "terms": "Terms of Service",
           "privacy": "Privacy Policy",
@@ -48,10 +48,10 @@
   },
   "pages": {
     "home": {
-      "title": "Gram Grabberz",
+      "title": "JOMIG",
       "description": "Fast, free, and no login required. Just paste the URL and download.",
       "hero": {
-        "title": "Download Instagram Videos in Seconds",
+        "title": "Download Instagram Videos in Seconds with JOMIG",
         "description": "Fast, free, and no login required. Just paste the URL and download.",
         "form": {
           "placeholder": "Paste Instagram video URL here...",
@@ -61,9 +61,9 @@
         "learnMore": "Learn how it works"
       },
       "features": {
-        "badge": "Why Choose Us",
+        "badge": "Why Choose JOMIG",
         "title": "Powerful Features",
-        "description": "Everything you need to download Instagram videos quickly and easily",
+        "description": "Everything you need to download Instagram videos quickly and easily with JOMIG",
         "cards": {
           "free": {
             "title": "100% Free",
@@ -86,7 +86,7 @@
       "howItWorks": {
         "badge": "Simple Process",
         "title": "How It Works",
-        "description": "Download Instagram videos in three simple steps",
+        "description": "Download Instagram videos in three simple steps with JOMIG",
         "steps": {
           "copy": {
             "title": "Copy URL",
@@ -95,8 +95,8 @@
           },
           "paste": {
             "title": "Paste URL",
-            "descriptionDesktop": "Paste the copied URL into our downloader input field at the top of this page",
-            "descriptionMobile": "Paste the URL into our downloader input field"
+            "descriptionDesktop": "Paste the copied URL into JOMIG’s downloader input field at the top of this page",
+            "descriptionMobile": "Paste the URL into JOMIG’s downloader input field"
           },
           "download": {
             "title": "Download",
@@ -104,11 +104,11 @@
             "descriptionMobile": "Click download and save the video to your device"
           }
         },
-        "ctaButton": "Try It Now"
+        "ctaButton": "Try JOMIG Now"
       },
       "testimonials": {
         "title": "Trusted by Thousands",
-        "description": "Join thousands of satisfied users who download Instagram videos every day",
+        "description": "Join thousands of satisfied users who download Instagram videos every day with JOMIG",
         "stats": {
           "downloads": "Daily Downloads",
           "users": "Happy Users",
@@ -118,36 +118,36 @@
       "frequentlyAsked": {
         "badge": "Got Questions?",
         "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about our Instagram video downloader",
+        "description": "Find answers to common questions about JOMIG’s Instagram video downloader",
         "sections": {
           "general": {
             "title": "General Questions",
             "q1": {
               "trigger": "Is this service completely free?",
-              "content": "Yes, our Instagram video downloader is completely free to use with no hidden charges or subscription fees. We don't require any payment information."
+              "content": "Yes, JOMIG is completely free to use with no hidden charges or subscription fees. We don't require any payment information."
             },
             "q2": {
               "trigger": "Do I need to create an account?",
-              "content": "No, you don't need to create an account or log in to use our service. Simply paste the URL and download without any registration."
+              "content": "No, you don't need to create an account or log in to use JOMIG. Simply paste the URL and download without any registration."
             },
             "q3": {
               "trigger": "Is it legal to download Instagram videos?",
-              "content": "Our service is designed for personal use only. Please respect copyright laws and only download videos that you have permission to use or that fall under fair use."
+              "content": "JOMIG is designed for personal use only. Please respect copyright laws and only download videos that you have permission to use or that fall under fair use."
             }
           },
           "technical": {
             "title": "Technical Questions",
             "q1": {
               "trigger": "What types of Instagram content can I download?",
-              "content": "You can download regular posts, reels, and stories that contain videos. Our service works with public Instagram accounts and most private accounts you have access to."
+              "content": "With JOMIG, you can download regular posts, reels, and stories that contain videos. Our service works with public Instagram accounts and most private accounts you have access to."
             },
             "q2": {
               "trigger": "How is the video quality?",
-              "content": "We provide the highest quality version of the video that Instagram makes available, typically in HD quality (1080p) when available from the source."
+              "content": "JOMIG provides the highest quality version of the video that Instagram makes available, typically in HD quality (1080p) when available from the source."
             },
             "q3": {
               "trigger": "Does it work on mobile devices?",
-              "content": "Yes, our downloader works on all devices including smartphones and tablets. The process is the same - copy the URL from Instagram and paste it into our tool."
+              "content": "Yes, JOMIG works on all devices including smartphones and tablets. The process is the same - copy the URL from Instagram and paste it into our tool."
             }
           }
         }
