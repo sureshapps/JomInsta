@@ -46,7 +46,7 @@ export function Header() {
           onClick={scrollUp}
           className="flex cursor-pointer items-center gap-2"
         >
-          <LogoImage className="h-6 w-6 text-teal-500" />
+          <LogoImage className="h-6 w-6 text-rose-500" />
           <LogoText />
         </div>
 
@@ -54,19 +54,19 @@ export function Header() {
         <nav className="ml-auto hidden items-center gap-6 md:flex">
           <a
             href={homeLinks.features}
-            className="text-sm font-medium transition-colors hover:text-teal-500"
+            className="text-sm font-medium transition-colors hover:text-rose-500"
           >
             {t("links.features")}
           </a>
           <a
             href={homeLinks.howItWorks}
-            className="text-sm font-medium transition-colors hover:text-teal-500"
+            className="text-sm font-medium transition-colors hover:text-rose-500"
           >
             {t("links.howItWorks")}
           </a>
           <a
             href={homeLinks.frequentlyAsked}
-            className="text-sm font-medium transition-colors hover:text-teal-500"
+            className="text-sm font-medium transition-colors hover:text-rose-500"
           >
             {t("links.frequentlyAsked")}
           </a>
@@ -93,7 +93,7 @@ export function Header() {
               <SheetHeader className="border-b">
                 <SheetTitle>
                   <div className="flex items-center gap-2">
-                    <LogoImage className="h-6 w-6 text-teal-500" />
+                    <LogoImage className="h-6 w-6 text-rose-500" />
                     <LogoText />
                   </div>
                 </SheetTitle>
@@ -102,7 +102,7 @@ export function Header() {
                 <nav className="flex flex-col gap-4 px-4">
                   <a
                     href={homeLinks.features}
-                    className="px-2 py-2 text-lg font-medium transition-colors hover:text-teal-500"
+                    className="px-2 py-2 text-lg font-medium transition-colors hover:text-rose-500"
                     onClick={() => setOpen(false)}
                   >
                     {t("links.features")}
@@ -110,14 +110,14 @@ export function Header() {
 
                   <a
                     href={homeLinks.howItWorks}
-                    className="px-2 py-2 text-lg font-medium transition-colors hover:text-teal-500"
+                    className="px-2 py-2 text-lg font-medium transition-colors hover:text-rose-500"
                     onClick={() => setOpen(false)}
                   >
                     {t("links.howItWorks")}
                   </a>
                   <a
                     href={homeLinks.frequentlyAsked}
-                    className="px-2 py-2 text-lg font-medium transition-colors hover:text-teal-500"
+                    className="px-2 py-2 text-lg font-medium transition-colors hover:text-rose-500"
                     onClick={() => setOpen(false)}
                   >
                     {t("links.frequentlyAsked")}
