@@ -18,7 +18,7 @@ export function LogoText({ className, ...props }: React.ComponentProps<"div">) {
       )}
       {...props}
     >
-      J☺︎mIG
+      JOMIG
     </div>
   );
 }
@@ -34,7 +34,7 @@ export function LogoImage({
       y="0px"
       width="200"
       height="200"
-      viewBox="0 0 256 256"
+      viewBox="0 0 128 128"
       className={cn(className)}
       {...props}
     >
