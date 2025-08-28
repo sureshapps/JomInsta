@@ -16,10 +16,10 @@ export function LogoText({ className, ...props }: React.ComponentProps<"div">) {
       {...props}
     >
       <Image
-        src="https://go.jomig.my/Jom.svg"
+        src="https://go.jomig.my/Joom.svg"
         alt="JOMIG Logo"
-        width={100} // adjust size
-        height={20} // adjust size
+        width={90} // adjust size
+        height={10} // adjust size
         priority
       />
     </div>
